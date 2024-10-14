@@ -1,0 +1,75 @@
+
+#sec1 {
+    
+    width:62%;
+    float:right;
+}
+
+#sec2 {
+    width:37%;
+    float:left;   
+}
+#s1-1 {
+   
+    width:49%;
+    float:right; 
+}
+#s1-2 {
+    width:49%; 
+}
+#vision{
+    border:3px solid black; 
+    padding-left: 15; 
+    font-size: 28px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.card1{
+    box-shadow: 0 4px 8px o rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border:5px solid black;
+}
+.title {
+    color:blue;
+    font-size: 18px;
+}
+button {
+    border:none;
+    outline:0;
+ 
+    padding:8px;
+    color:white;
+    background-color:#000 ;
+    text-align:center;
+    cursor:pointer;
+    width:100;
+    font-size: 18px;
+}
+
+#button1{
+    background-color: grey;
+}
+
+#button1:hover{
+    background-color: wheat;
+}
+#button2{
+    background-color: grey;
+    
+}
+
+#button2:hover{
+    background-color: wheat;
+}
+
+body{
+    background-image: url(background.jpeg) ;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

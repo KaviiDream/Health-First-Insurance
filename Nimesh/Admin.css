@@ -1,0 +1,141 @@
+#offers{
+
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#analytic{
+
+    padding: 5px;
+            background-color: lightblue;
+            border-radius: 5px;
+            font-weight: bold;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+        
+#right{
+
+    width:35%;
+    float:right;
+    border:5px solid black;
+    margin-top: 20px;
+    background-color:whitesmoke;
+    margin-right:2%;
+}
+#left{
+    width:60%;
+    float:left;
+    margin-top: 20px;
+    margin-left: 5px;
+
+}
+#adminProfile{
+    text-align:center;
+    font-size:40px;
+    color:blue;
+}
+#adminDetails{
+    font-size:30px;
+    padding-left:10%;
+}
+#Adminbtn{
+    font-size: 20px;
+    color: blue;
+    border: 2px  solid black;
+    margin-right:20%;
+    margin-bottom:5%;
+    float: right;
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+#Adminbtn a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#staffheading{
+    text-align:center;
+    color:#333;
+    font-size:44px;
+}
+#emp{
+    width:90%;
+    border-collapse:collapse;
+    margin:20px 0;
+    border:2px solid black;
+    margin-left:5%;
+}
+#emp th{
+    background-color:yellow;
+    border: 5px solid black;
+    color:black;
+    font-size:24px;
+}
+ #emp td {
+    padding: 5px;
+    
+    font-size:20px;
+    
+}
+#claims{
+    margin:15px 10px 10px 10px;
+    width: 100%;
+    border: 10px solid balck;
+    border-style: groove;
+    padding: 3px;
+    font-size: 20px;
+
+}
+th,td{
+    border:1px solid black;
+}
+#claimform{
+    margin-left: 10px; text-align:center;
+    border:5px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#claimReq{
+    border:2px solid black;
+    font-size:24px;
+
+}
+#claimTopic{
+    text-align:center;
+    font-size:36px;
+}
+#claim{
+    border: 5px solid black;
+    padding:10px;
+    float:right;
+    
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#claim a {
+    text-decoration: none;
+    color: black;
+}
+
+
+

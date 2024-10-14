@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="faqStyle.css">
+        <title>FAQ & Reviews</title>
+
+        <!--To Use FONT AWESOME LIBRARIES in web page-->
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div id="left">
+        <div class="sec1">
+            <br>
+            <h1 style="text-align: center;font-size: 40px; letter-spacing: 2px;">Frequently Asked Questions about HEALTH FIRST </h1>
+            <br>
+            <div class="faq">
+                <button class="accord" style="font-weight: bold; font-size: 28px;">
+                   Does my insurance plan cover my children and my spouse?
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="pannal">
+                    <p>YES. dependent children and spouse can be co-insured free of charge 
+                        under certain preconditions. One precondition is that monthly income 
+                        of family members. Age limit also apply to your children. It's best 
+                        to Contact us directly for further information on family-insurance so
+                        that we can advice you according to your situation.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="sec1">
+            
+            <div class="faq">
+                <button class="accord"style="font-weight: bold; font-size: 28px;">
+                    Does HEALTH FIRST provide additional benefits?
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="pannal">
+                    <p>YES. If you insured with us, you will receive many additional
+                        benefits. 
+                        <ul>
+                            <li>access to leading treatments.</li>
+                            <li>Faster appointments with specialists.</li>
+                            <li>Free medical advice via telephone.</li>
+                            <li>Modern, digital apps and online services.</li>
+                        
+                        For more information call our hotline or visit us in person
+                        at a HEALTHFIRST service point. We are always happy to assist
+                        you.
+                        </ul>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="sec1">
+            
+            <div class="faq">
+                <button class="accord"style="text-align: center; font-weight: bold; font-size: 28px;">
+                    Does this insurance plan cover routine checkups?
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="pannal">
+                    <p>We offer numerous services and programs to prevent disease
+                        from developing, to detect them at an early stage or to prevent
+                        consequential health issues.<br>
+                        Free screening examinations for the whole family. Vaccinations offer
+                        you further protection - we cover the costs for most of them.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="sec1">
+            
+            <div class="faq">
+                <button class="accord"style="text-align: center; font-weight: bold; font-size: 28px;">
+                    Am I insured for all necessary healthcare services and treatments?
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="pannal">
+                    <p>YES, We cover you for all medically necessary healthcare services 
+                        and treatments. This includes healthcare at doctors, approved therapists,
+                        basic dental care, prescription medication and more.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="sec1">
+            
+            <div class="faq">
+                <button class="accord"style="text-align: center; font-weight: bold; font-size: 28px;">
+                    How long does it takes to sign up for our services?
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="pannal">
+                    <p>It only take around 15 minutes to register</p>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <hr style="border: 2px solid black;">
+        <br>
+        <h1 style="margin-left: 5%;font-size: 44px;">Need more help?</h1>
+        <br>
+        <p style="margin-left: 5%;font-size: 30px ;">For further information simply call our Services Hotline on<br>
+            011-2345678 / 070 3881351 Or write us an 
+            <a href="mailto:healthfirst@gmail.com">email.</a>
+        </p>
+    </div>
+        
+           <script>
+            var acc= document.getElementsByClassName("accord");
+            var i;
+
+            for(i=0; i < acc.length; i++){
+
+                //this will add onClickEvent to each accord
+
+                acc[i].addEventListener("click", function(){
+                    //
+                    this.classList.toggle("active");
+
+                    //
+                    this.parentElement.classList.toggle("active");
+                    
+                    //
+                    var pannal = this.nextElementSibling;
+
+                    if(pannal.style.display === "block"){
+                        pannal.style.display = "none";
+                    }
+                    else{
+                        pannal.style.display ="block";
+                    }
+                });
+            }
+
+        </script>
+        <div id="right">
+            <div class="overview">
+            <h1 style="font-size: 38px;">Read what our customers love about us</h1>
+            <br>
+            <p style="font-size: 22px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Health First has multiple insurance plans.Customers who are looking 
+                into purchasing multiple types of insurance from one place.Also healthfirst
+                has a socialmedia presence across multiple platforms and offers mobile apps
+                for smartphone users.Overall, Health First creates a mostly user friendly
+                experience for customers.
+            </p>
+           <br>
+            <button style="display: flex;font-size: 22px;">Read our success stories</button>
+            </div>
+            <br><br>
+
+
+
+            <!-- Here is the reviews part -->
+
+
+            <div class="container_right">
+                <div class="card">
+                    <img src="review1.png" alt="customer1" style="width:80%">
+                    <div class="card_content">
+                        <p>"I have insured my overseas travels in the past 5 years with 
+                            HEALTH FIRST and filed 3 claims.This company is really expentional!They 
+                            processed and paid all my claims within 48Hours."
+                        </p>
+                        <br>
+                        <h4> - Mark Simpsons</h4>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="container_right">
+                <div class="card">
+                    <img src="review2.jpeg" alt="customer2"style="width:80%">
+                    <div class="card_content">
+                        <p>"I was very happy with the outcome and wasn't too hard
+                            to get together all the paperwork needed"
+                        </p>
+                        <br>
+                        <h4> - anny macman</h4>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="container_right">
+                <div class="card">
+                    <img src="review4.jpg" alt="customer2"style="width:80%">
+                    <div class="card_content">
+                        <p>"We were going to barbados for a much needed vacation when we
+                            had to cancel because of the coronavirus. My claim was processed on time
+                            and i had no problem getting a refund.We liked how we could get everything
+                            done on the internet.HealthFirst is very efficent"
+                        </p>
+                        <br>
+                        <h4> - barry allen</h4>
+                    </div>
+                </div>
+
+            </div>
+
+               
+       
+        </div>
+            
+
+    
+       
+        
+    </body>
+</html>
