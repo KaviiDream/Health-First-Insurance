@@ -1,0 +1,33 @@
+body{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.list h3 {
+    color: darkblue;
+}
+
+h3.privacy1 {
+    font-size: larger;
+}
+
+
+.privacyImg{
+    background-image: linear-gradient(rgba(29, 29, 29, 0.551), rgba(41, 41, 41, 0.578)), url("privacy1.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+}

@@ -1,0 +1,80 @@
+#userIcon{
+
+    float:right;
+    padding:5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 9px;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 55px;
+    color: rgb(66, 144, 66);
+   background-color: rgb(202, 240, 202);
+}
+
+#logout{
+
+    float:right;
+    padding:4px;
+    margin-right:5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-container {
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto; /* Centers the form */
+    background-color: #faf9f9; /* Optional: Background color for better visibility */
+    height: auto;
+    font-size: 20px;
+}
+
+#form {
+    padding: 20px;
+}
+
+#submitBtn{
+
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(133, 222, 133);
+    font-weight: bold;
+    
+}
+
+#submitBtn:hover{
+
+    background-color: rgb(45, 109, 62);
+    cursor: pointer;
+}
+
+#submitBtn:active{
+    background-color: rgb(157, 200, 164);
+}
+
+
+#refreshBtn{
+
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgb(172, 215, 108);
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#refreshBtn:hover{
+
+    background-color: rgb(107, 169, 124);
+    cursor: pointer;
+}
+
+#refreshBtn:active{
+    background-color: rgb(157, 200, 164);
+}
+

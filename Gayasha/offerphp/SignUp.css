@@ -1,0 +1,79 @@
+
+
+.Containers{
+	
+	width:400px;
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:"Poppins",sans-serif;
+	padding:2rem 5 rem;
+	margin:50px auto;
+	background-color:#53aad9;
+	border-radius:20px;
+	text-align:center;
+	box-shadow:5px 15px 15px rgb(79, 77, 77);
+}
+
+body {
+	background-image: url('background.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+ 
+}
+
+
+#fname,#age,#nic,#Email,#userName,#pwd,#cpwd{
+	width:300px;
+}
+
+#backd{
+	background-color:white;
+	font-size:15;
+	padding-left:31px;
+	padding-right:31px;
+	color:ash;
+	margin-right:20px;
+}
+#dob{
+	width:129px;
+}
+
+/*style for sign up btn and cancel*/
+#signup,#cancel{
+	background-color:#90EE90;
+	margin-bottom:20px;
+	width:25%;
+	font-size:15px;
+	cursor:pointer;
+	padding:2%;
+	margin-right:8%;
+}
+
+/*signup bottns in signup pge fb,google*/
+
+.socialsign{
+	padding: 10px 50px;
+	font-family:Arial;
+	font-size:20px;
+	
+
+}
+
+.fbbtn
+{background-color: #3B5998;
+  color: white;
+  width:250px;
+  
+}
+.gglebtn{
+	background-color: #dd4b39;
+	width:250px;
+	color: white;
+ 
+}
+
+p{
+	font-size: 15px;
+}
