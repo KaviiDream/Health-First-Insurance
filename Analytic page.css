@@ -1,0 +1,124 @@
+.user-box{
+
+    border:1px solid black;
+    min-height: 400px;
+    width: 650px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#user-image{
+
+    border: 1px solid black; 
+    height: 180px; 
+    width: 200px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+#graph{
+
+    border: 1px solid black; 
+    height: 280px; 
+    width: 650px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#plans-chart{
+
+    border: 2px solid black;
+    float: left;
+    min-height: 200px;
+    width: 700px;
+    margin-top: 0px;
+    margin-left: 5px;
+    padding: 10px;
+
+}
+
+.column{
+
+    border: 1px solid green;
+}
+
+#user-questions{
+
+    border: 1px solid black;
+    min-height: 450px;
+    width: 725px;
+    float: right;
+    margin-top: -900px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.questions{
+
+    font-weight: bold;
+
+}
+
+#faqBtn{
+
+    float:right;
+    background-color:  rgb(110, 193, 110);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+#faqBtn a{
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.reviews{
+
+    border: 1px solid black;
+    min-height: 650px;
+    width: 725px;
+    float: right;
+    margin-top: -330px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+
+#reviewBtn{
+
+    float:right;
+    background-color: rgb(110, 193, 110);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+#reviewBtn a{
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.reports{
+
+    border:1px solid black;
+    min-height: 450px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 700px;
+    text-indent: 10px;
+    padding: 10px;
+}
+
+#Reports{
+
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(7, 132, 7);
+    text-shadow: 5px 5px 10px;
+}
