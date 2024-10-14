@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="Insurance.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="loginstyle.css">
+</head>
+
+<body>
+
+    <div class="header">
+
+        <div class="name">
+             <h1 id="name">Health First Insurance</h1>
+        </div>
+
+        
+        <div id="logo"></div>  
+        <ul class="menu" >
+            <li><a href="Home Page.html">Home</a></li>
+            <li><a href="about us1.html">About Us</a></li>
+            <li><a href="InsurancePlan2.html">Insurance Plans</a></li>
+            <li><a id="profileLink" href="User Profile.php">Profile</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="faq&reveiws.html">FAQ</a></li>
+        </ul>
+
+        <div class="box3">
+            <form>
+                <input id="searchBox" type="text" placeholder="search...">
+                <button id="searchBtn">Go</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="user">
+            <h2> USER LOGIN</h2>
+            <form method="post" action="logindetails.php">
+                <label>User Name</label><br>
+                <input class="uname" type="text" name="uname" placeholder="User name"><br><br>
+                <label> Password</label><br>
+                <input class="password" type="text" name="password" placeholder="Password"><br><br>
+                
+                    <button class="loginBtns" type="submit"  name="submit">Login</button>
+                    <button class="loginBtns" type="submit"><a href="admin.html">cancel</a></button> 
+            </form>
+
+        </div>
+        <div class="admin">
+            <h2> ADMIN LOGIN</h2>
+            <form method="post" action="logindetails.php">
+                <label>User Name</label><br>
+                <input class="uname" type="text" name="uname" placeholder="User name"><br><br>
+                <label> Password</label><br>
+                <input class="password" type="text" name="password" placeholder="Password"><br><br>
+                
+                    <button class="loginBtns" type="submit" name="submit">Login</button>
+                    <button class="loginBtns" type="submit" name="cancel"><a href="admin.html">cancel</a></button> 
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div>
+            <br>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            
+        </div>
+        
+        <p id="cpyright">HealthFirstInsurance.com ©2024 All rights reserved</p>
+
+        <div class="box1">
+            <i class="fa-solid fa-phone"></i>
+            0112345678 / 0703881351 <br>
+            <i class="fa-brands fa-whatsapp"></i>
+            0703881351 <br>
+            <i class="fa-regular fa-envelope"></i>
+            healthfirst@gmail.com
+        </div>
+
+        <div class="box2">
+            Terms & Conditions | Reviews & Feedbacks
+        </div>
+
+    </footer>
+    
+
+</body>
+</html>
+

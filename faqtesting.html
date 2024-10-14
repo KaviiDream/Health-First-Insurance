@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc33vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div id="left">
+            <div class="sec1">
+                <br>
+                <h1 style="text-align: center;font-size: 40px; letter-spacing: 2px;">Frequently Asked Questions about HEALTH FIRST </h1>
+                <br>
+                <div class="faq">
+                    <button class="accord" style="font-weight: bold; font-size: 28px;">
+                       Does my insurance plan cover my children and my spouse?
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="pannal">
+                        <p>YES. dependent children and spouse can be co-insured free of charge 
+                            under certain preconditions. One precondition is that monthly income 
+                            of family members. Age limit also apply to your children. It's best 
+                            to Contact us directly for further information on family-insurance so
+                            that we can advice you according to your situation.
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="sec1">
+                
+                <div class="faq">
+                    <button class="accord"style="font-weight: bold; font-size: 28px;">
+                        Does HEALTH FIRST provide additional benefits?
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="pannal">
+                        <p>YES. If you insured with us, you will receive many additional
+                            benefits. 
+                            <ul>
+                                <li>access to leading treatments.</li>
+                                <li>Faster appointments with specialists.</li>
+                                <li>Free medical advice via telephone.</li>
+                                <li>Modern, digital apps and online services.</li>
+                            
+                            For more information call our hotline or visit us in person
+                            at a HEALTHFIRST service point. We are always happy to assist
+                            you.
+                            </ul>
+    
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="sec1">
+                
+                <div class="faq">
+                    <button class="accord"style="text-align: center; font-weight: bold; font-size: 28px;">
+                        Does this insurance plan cover routine checkups?
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="pannal">
+                        <p>We offer numerous services and programs to prevent disease
+                            from developing, to detect them at an early stage or to prevent
+                            consequential health issues.<br>
+                            Free screening examinations for the whole family. Vaccinations offer
+                            you further protection - we cover the costs for most of them.
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="sec1">
+                
+                <div class="faq">
+                    <button class="accord"style="text-align: center; font-weight: bold; font-size: 28px;">
+                        Am I insured for all necessary healthcare services and treatments?
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="pannal">
+                        <p>YES, We cover you for all medically necessary healthcare services 
+                            and treatments. This includes healthcare at doctors, approved therapists,
+                            basic dental care, prescription medication and more.
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="sec1">
+                
+                <div class="faq">
+                    <button class="accord"style="text-align: center; font-weight: bold; font-size: 28px;">
+                        How long does it takes to sign up for our services?
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="pannal">
+                        <p>It only take around 15 minutes to register</p>
+                    </div>
+                </div>
+    
+            </div>
+            <br>
+            <hr style="border: 2px solid black;">
+            <br>
+            <h1 style="margin-left: 5%;font-size: 44px;">Need more help?</h1>
+            <br>
+            <p style="margin-left: 5%;font-size: 30px ;">For further information simply call our Services Hotline on<br>
+                011-2345678 / 070 3881351 Or write us an 
+                <a href="mailto:healthfirst@gmail.com">email.</a>
+            </p>
+        </div>
+
+        <script>
+            var acc= document.getElementsByClassName("accord");
+            var i;
+
+            for(i=0; i < acc.length; i++){
+
+                //this will add onClickEvent to each accord
+
+                acc[i].addEventListener("click", function(){
+                    //
+                    this.classList.toggle("active");
+
+                    //
+                    this.parentElement.classList.toggle("active");
+                    
+                    //
+                    var pannal = this.nextElementSibling;
+
+                    if(pannal.style.display === "block"){
+                        pannal.style.display = "none";
+                    }
+                    else{
+                        pannal.style.display ="block";
+                    }
+                });
+            }
+
+        </script>
+
+<style>
+    
+/*FAQ PART*/
+
+#right{
+    width:40%;
+    float:right;
+}
+body{
+    background-image: url(background.jpeg);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    
+}
+.sec1{
+    max-width: 75%;
+    margin: auto;
+}
+.accord{
+    background-color: white;
+    color: rgba(0,0,0,8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width:100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.accord i{
+    font-size: 1.6rem;
+}
+.active,
+.accord:hover {
+    background-color: bisque;
+}
+.pannal{
+    padding: 0 2rem 2.5rem 2rem ;
+    background-color: white;
+    overflow: hidden;
+    background-color: bisque;
+    display: none;
+
+}
+
+.pannal p{
+    color: rgba(0,0,0,0.7);
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+}
+.pannal p,
+ul{
+    color: rgba(0,0,0,0.7);
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+}
+.faq{
+    border:1px solid rgba(0,0,0,0.2);
+    margin: 10px 0;
+}
+.faq.active {
+    border:none;
+}
+
+/* REVIEW part */
+
+#left{
+    width:60%;
+    float:left;
+}
+/*review cards*/
+.card{
+    font-size: 20px;
+    padding:20px;
+    display:contents;
+    align-items:start;
+    gap: 2rem;
+    margin:0;
+    
+   
+    cursor: pointer;
+}
+.card img{
+    max-width: 75%;
+    border-radius: 100%;
+}
+.container_right{
+    
+  
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ 
+}
+.overview{
+    padding: 1re 2rem;
+    margin-top: 1rem;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+
+
+
+
+
+
+</style>
+
+</body>
+
+</html>

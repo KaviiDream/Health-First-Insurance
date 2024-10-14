@@ -1,0 +1,267 @@
+.offer-box{
+
+    border: 2px solid black;
+    width: 150px;
+    height: 190px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    border-radius: 7px;
+}
+
+.offer-box a{
+
+    text-decoration: none;
+}
+
+.highlight {
+     background-color: yellow;
+     font-weight: bold;
+}
+
+
+ 
+
+
+.content-boxes{
+    
+    margin-left: 15%; 
+    margin-right: -165px;
+    display: felx;
+    flex-direction: right;
+    margin-top: -230px;
+
+    animation: myRotate ;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    
+}
+
+#overviewpara{
+
+    font-size: 20px; 
+    padding: 5px;
+    margin-left: 200px; 
+    margin-right: 200px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(184, 220, 184);
+}
+
+
+
+@keyframes mySlide{
+
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+@keyframes myRotate {
+    
+    100%{transform: rotateX(360deg);}
+    /*100%{transform: rotateX(360deg);}*/
+    /*100%{transform: rotateX(360deg);}*/ 
+    
+}
+
+@keyframes myOpasity {
+    
+    50%{opacity: 0%;}  /*fadeout fade in*/
+}
+
+@keyframes myShrink{        
+
+    50%{transform: scale(0.5 , 0.5);}
+}
+
+@keyframes myColorChange {
+
+    0%{background-color: rgb(227, 234, 227);}
+    20%{background-color: rgb(147, 202, 152);}
+    40%{background-color: rgb(154, 246, 166);}
+    60%{background-color: rgb(106, 165, 106);}
+    80%{background-color: rgb(88, 168, 100);}
+    100%{background-color: rgb(164, 231, 190);}
+
+}
+
+.overlay-text{
+
+   
+    position: absolute; /* Position text absolutely within the container */
+    top: 70%; /* Adjust vertical position */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: rgb(38, 55, 36); /* Text color */
+    font-size: 100px; /* Font size */
+    text-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+.overlay-background {
+    position: absolute; /* Position background absolutely */
+    top: 50%; /* Start at the top */
+    left: 30%; /* Start at the left */
+    width: 40%; /* Full width */
+    height:40%; /* Full height */
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    border-radius: 10px; /* Optional: Rounded corners */
+    z-index: 0; /* Ensure it's behind the text */
+}
+.content-boxes button {
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.content-boxes button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+    z-index: -1;
+}
+
+.content-boxes button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.content-boxes button:hover {
+    transform: scale(1.1); /* Enlarges button */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow for a pop effect */
+}
+
+#overview{
+
+    padding: 10px;
+    height: 200px;
+    width: 270px;
+    font-size: 60px;
+    border-radius: 10px;
+    background-color: rgb(185, 233, 185);
+    margin-left: -100px;
+    margin-right: 30px;
+    
+    animation: myColorChange; 
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+
+    
+}
+
+#overview:active{
+    background-color: wheat;
+}
+
+#services{
+
+    padding: 10px;
+    height: 200px;
+    width: 270px;
+    font-size: 60px;
+    border-radius: 10px;
+    background-color: rgb(185, 221, 233);
+    
+    margin-right: 30px;
+
+    animation: myColorChange; 
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+}
+
+#benefits{
+
+    padding: 10px;
+    height: 200px;
+    width: 270px;
+    font-size: 60px;
+    border-radius: 10px;
+    background-color: rgb(228, 226, 227);
+    
+    margin-right: 30px;
+
+    animation: myColorChange; 
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+}
+
+#news{
+
+    padding: 10px;
+    height: 200px;
+    width: 270px;
+    font-size: 60px;
+    border-radius: 10px;
+    background-color: rgb(202, 204, 238);
+    
+    margin-right: 30px;
+    animation: myColorChange; 
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+}
+
+
+.hero-content {
+    text-align: center;
+    color: #090909;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 50px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}

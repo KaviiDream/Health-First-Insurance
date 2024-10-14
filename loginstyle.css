@@ -1,0 +1,42 @@
+.admin{
+    float:right;
+    width:45%;
+    margin-top: 5%;
+    margin-right: 7%;
+    font-size: 28px;
+    border:3px solid black;
+    padding-bottom: 5%;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(184, 214, 240);
+}
+.loginBtns{
+
+    font-size: 24px;
+    border: 2;
+    background-color:white;
+    
+}
+.loginBtns:hover{
+    opacity: .7;
+}
+.uname{
+    border:2px solid black;
+    padding: 10px;   
+}
+.password{
+    border:2px solid black;
+    padding: 10px;   
+}
+.user{
+float:left;
+width:40%;
+margin-top: 5%;
+margin-left: 5%;
+font-size: 28px;
+border:3px solid black;
+padding-bottom: 5%;
+justify-content: center;
+text-align: center;
+background-color: aliceblue;
+}

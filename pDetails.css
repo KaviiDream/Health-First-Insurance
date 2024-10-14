@@ -1,0 +1,213 @@
+body {
+    /* background-image: url("../images/health.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 25% 100%;
+    background-position: right top;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.mainDiv {
+    background-image: linear-gradient(rgba(29, 29, 29, 0.551), rgba(41, 41, 41, 0.578)), url("../images/healthPlan.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+}
+
+.topic {
+    color: #59fdea;
+    font-size: 50px;
+}
+
+.subtopic {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.detail {
+    color: white;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(236, 96, 124);
+    padding: 50px 0 0 50px;
+}
+
+
+
+h3 {
+    font-size: 25px;
+    color: rgb(111, 114, 108);
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px 150px 20px 150px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #333;
+}
+
+
+
+/* 
+button.button1 {
+    border: 0lvw;
+    color: rgb(23, 54, 33);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: larger;
+
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 3px;
+    cursor: pointer;
+    background-color: rgb(230, 136, 13);
+
+
+}
+
+
+
+button.button2 {
+    border: 0lvw;
+    color: rgb(0, 0, 0);
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: solid;
+
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 3px;
+    cursor: pointer;
+    background-color: rgb(170, 85, 82);
+
+}
+
+
+button.button1:hover {
+    background-color: rgb(165, 93, 0);
+
+}
+
+
+
+
+button.button2:hover {
+    background-color: rgb(233, 9, 9);
+
+} */
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 50px 0 0 12.5%;
+    background-color: rgb(149, 149, 149);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+th,
+td {
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+    background-color: rgb(186, 186, 186);
+    border: 1px solid white;
+}
+
+tr:hover td {
+    background-color: rgb(197, 197, 197);
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0 50px 0;
+}
+
+.buttons button {
+    height: 50px;
+}
+
+.button1 {
+    background-color: rgb(34, 89, 242);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button1:hover {
+    background-color: rgb(0, 55, 205);
+}
+
+.button2 {
+    background-color: rgb(3, 173, 3);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button2:hover {
+    background-color: rgb(0, 124, 0);
+}
